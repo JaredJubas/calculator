@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculator">
+
+        <input id="display"><br>
+
+        <button id="bigKey" onClick="del()">DEL</button>
+        <button id="key" onClick="add('C')">C</button>
+        <button id="key" onClick="add('/')">/</button><br>
+
+        <button id="key" onClick="add('7')">7</button>
+        <button id="key" onClick="add('8')">8</button>
+        <button id="key" onClick="add('9')">9</button>
+        <button id="key" onClick="add('*')">*</button><br>
+
+        <button id="key" onClick="add('4')">4</button>
+        <button id="key" onClick="add('5')">5</button>
+        <button id="key" onClick="add('6')">6</button>
+        <button id="key" onClick="add('-')">-</button><br>
+
+        <button id="key" onClick="add('1')">1</button>
+        <button id="key" onClick="add('2')">2</button>
+        <button id="key" onClick="add('3')">3</button>
+        <button id="key" onClick="add('+')">+</button><br>
+
+        <button id="key" onClick="add('0')">0</button>
+        <button id="key" onClick="add('.')">.</button>
+        <button id="bigKey" onClick="equals()">=</button><br>
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
