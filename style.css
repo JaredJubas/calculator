@@ -35,3 +35,18 @@
     margin-bottom: 5px;
     cursor: pointer;
 }
+
+#error {
+    padding: 10px;
+    background-color: rgb(224, 60, 60);
+    color: white;
+    text-align: center;
+    width: 30%;
+    margin-top: 10px;
+    top: 5%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 0%);
+    border-radius: 20px;
+    opacity: 0;
+}
